@@ -1,0 +1,20 @@
+/* selector(what do you want to style: id,class,tagname ) {
+    styling property : value of the property
+} */
+/* to use id */
+/* #nameofid */
+#paraId {
+    background-color: black;
+    padding: 10px;   
+}
+/* to use the class name */
+/* .classname  */
+.paraClass{
+    background-color: red;
+    padding: 5px;
+}
+/* tag name */
+p {
+    background-color: aqua;
+    padding: 2px;
+}

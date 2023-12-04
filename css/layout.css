@@ -1,0 +1,44 @@
+#item1 {
+    grid-area: one;
+    margin: 10px;
+}
+
+#item2 {
+    grid-area: two;
+    background-color: blueviolet;
+    margin: 10px;
+}
+
+#item3 {
+    grid-area: three;
+    background-color: blue;
+    margin: 10px;
+}
+
+#item4 {
+    grid-area: four;
+    background-color: brown;
+    margin: 10px;
+}
+
+#item5 {
+    grid-area: five;
+    background-color: red;
+    margin: 10px;
+}
+
+#item6 {
+    grid-area: six;
+    background-color: indigo;
+    margin: 10px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-areas: 
+    'one two two two two three'
+    'one four four four four three'
+    'one five five five five three'
+    'one six six six six three'
+    ;
+}

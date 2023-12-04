@@ -26,4 +26,20 @@ Enhances the visual representation of HTML Elements
 FrontEnd and Backend in web development
 ### FRONTEND (CLIENT PHASE OF A WEBPAGE)
 - user interface and user experience of a website(drag and drop builders) or a web application(React, Vue)
+- Creating visual elements , layouts and interactivity of a webpage 
 
+### BackEnd (Server side of an application)
+Server : Computer or System that provides services or resources to other computers over a network.
+This aspect manages data , performs business logic, and communicates with databases. 
+
+Key components 
+1. Server : Python , Node.js , Ruby , PHP , Java , Go Lang , 
+2. Databases : Store and allow retrival of data : MySQL , PostgreSQL , MongoDB, SQLite ...... 
+3. Application Logic : defined by application specifics. (how are you using the data)
+
+### Connection Backend and FrontEnd 
+Various ways  : 
+1. API's : backend : API : FrontEnd 
+2. Direct DB connection : FrontEnd directly queries the backend 
+3. GraphQL
+4. Web sockets : chat application .......

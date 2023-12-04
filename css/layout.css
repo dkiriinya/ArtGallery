@@ -1,5 +1,6 @@
 #item1 {
     grid-area: one;
+    background-color: purple;
     margin: 10px;
 }
 
@@ -42,3 +43,25 @@
     'one six six six six three'
     ;
 }
+
+/* give different CSS rules for different screens (conditions) 
+1. Define the @media syntax
+2. Give your new set of rules  
+3. Write media queries Below your default CSS
+*/
+
+@media (max-width: 360px) {
+    .grid-container {
+      display: grid;
+      grid-template-areas: 
+        'two two two two two two'
+        'one one one one one one'
+        'four four four four four four'
+        'five five five five five five'
+        'six six six six six six'
+        'three three three three three three'
+        ;
+    }
+
+    
+  }

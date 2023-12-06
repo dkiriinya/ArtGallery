@@ -15,7 +15,6 @@ console.log(6.0);
 let age = 25;
 let name = "Joseph";
 const PI = 3.145;
-
 console.log(age,name,PI);
 
 // Differences with variable declarations (let, var, const)
@@ -77,3 +76,36 @@ let value1 = 42
 let value2 = "42"
 
 console.log(value1 == value2)
+
+// scoping : In JS , the scope of a variable defines where in your program that 
+// variable is accessible 
+// global scope :variables defined outside functions(block of code , perfoming a 
+// specific task) or blocks. && 
+// local scope : variables defined within functions and are not accessible outside the 
+// function block
+
+let globalVar = "I'm global"
+//define a function
+function exampleglobalFunction() {
+    // unit of code performing the specific task 
+    console.log(globalVar) //accessible here
+}
+//call / invoking a function
+exampleglobalFunction()
+console.log(globalVar)
+
+// local scoped variables 
+function exampleLocalFunction() {
+    let localVar = "I'm local"
+    console.log(localVar) //accessible here 
+}
+
+exampleLocalFunction()
+// console.log(localVar)
+// var, let , const 
+
+// block scope 
+{
+    let i = 5
+}
+

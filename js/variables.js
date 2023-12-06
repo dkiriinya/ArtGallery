@@ -77,3 +77,20 @@ let value1 = 42
 let value2 = "42"
 
 console.log(value1 == value2)
+
+// scoping : IN JS , the scope of a variable defines where in your program that variable is accessible
+// global scope :variables defined outside function or blocks. &&
+// local scope : variables defined within function
+
+let globalVar = "I'm global"
+function exampleglobalfunction(){
+    console.log(globalVar)
+}
+exampleglobalfunction()
+
+function exampleLocalFunction(){
+    let localVar = "I'm local"
+    console.log(localVar)
+}
+
+console.log(new Date().getDate())

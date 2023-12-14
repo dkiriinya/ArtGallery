@@ -10,6 +10,7 @@ function sumOfTwoNumbers(a,b){
 }
 
 // invoke 
+sumOfTwoNumbers(30,50)
 console.log(sumOfTwoNumbers(10,20))
 console.log(sumOfTwoNumbers(100,200))
 
@@ -39,7 +40,7 @@ greet()
 
 function add(a,b,callback){
     console.log(`${a + b }`)
-    let result = callback();
+    callback();
     // maybe u have another logic for the output of the callback
 }
 
@@ -48,3 +49,18 @@ function display(){
 }
 
 add(5,5,display)
+
+{
+    var x = 5
+}
+console.log(x)
+/*
+{
+
+}
+
+function name(){
+
+}
+
+*/

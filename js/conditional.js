@@ -35,7 +35,7 @@ switch(dayNumber){
         console.log("Sunday")
         break;
     case 1:
-        console.log("Monday")
+        getFee(true)
         break;
     case 2:
         console.log("Tuesday")

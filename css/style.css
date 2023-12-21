@@ -1,0 +1,67 @@
+#item1 {
+    grid-area: one;
+    margin: 10px;
+}
+
+#item2 {
+    grid-area: two;
+    margin: 10px;
+}
+
+#item3 {
+    grid-area: three;
+    background-color: blue;
+    margin: 10px;
+}
+
+#item4 {
+    grid-area: four;
+    margin: 10px;
+}
+
+#item5 {
+    grid-area: five;
+    margin: 10px;
+}
+
+#item6 {
+    grid-area: six;
+    margin: 10px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-areas: 
+    'one two two two two three'
+    'one four four four four three'
+    'one five five five five three'
+    'one six six six six three'
+    ;
+}
+
+.post-image {
+    width: 200px;
+    height: 200px;
+}
+
+/* give different CSS rules for different screens (conditions) 
+1. Define the @media syntax
+2. Give your new set of rules  
+3. Write media queries Below your default CSS
+*/
+
+@media (max-width: 360px) {
+    .grid-container {
+      display: grid;
+      grid-template-areas: 
+        'two two two two two two'
+        'one one one one one one'
+        'four four four four four four'
+        'five five five five five five'
+        'six six six six six six'
+        'three three three three three three'
+        ;
+    }
+
+    
+  }

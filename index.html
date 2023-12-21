@@ -1,10 +1,97 @@
 <!DOCTYPE html>
 <html>
-   <head></head>
-   <body>
-      <p>Hello World</p>
-      <button>Click me</button>
-   </body>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Art Gallery</title>
+        <link rel="stylesheet" href="./css/style.css"/>
+        <!-- linking to bootstrap local folder -->
+        <!-- grid -->
+        <link rel="stylesheet" href="./bootstrap/css/bootstrap-grid.css">
+        <link rel="stylesheet" href="./bootstrap/css/bootstrap-grid.min.css">
+        <!-- component style -->
+        <link rel="stylesheet" href="./bootstrap/css/bootstrap.css">
+        <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
+        <!-- Latest compiled and minified CSS -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"> 
+    </head>
+    <body>
+        <div class="grid-container">
+            <div id="item1">
+               <nav class="navbar bg-light">
+                  <div class="container-fluid">
+                    <ul class="navbar-nav">
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Link 1</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Link 2</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Link 3</a>
+                      </li>
+                    </ul>
+                  </div>
+                </nav>
+            </div>
+            <div id="item2">
+               <nav class="navbar navbar-expand-sm bg-light">
+
+                  <div class="container-fluid">
+                    <!-- Links -->
+                    <ul class="navbar-nav">
+                     <a class="navbar-brand" href="#">
+                        <img class="rounded-circle" src="./assests/artlogo.jpg" width="40px" height="40px">
+                     </a>
+
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Home</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">About</a>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link" href="#">Contact Us</a>
+                      </li>
+                    </ul>
+                  </div>
+                
+                </nav>
+            </div>
+            <div id="item3">3</div>
+            <div id="item4">
+               <!-- art piece submission form -->
+               <h4>Submit your art piece details</h4>
+               <br>
+               <form id="post-form">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="title" placeholder="Enter Title" name="title">
+                </div>
+                <br>
+                <div class="form-group">
+                  <input type="text" class="form-control" id="displayimg" placeholder="Enter Image URL" name="displayimg">
+                </div>
+                <br>
+                <div class="form-group">
+                  <textarea placeholder="Enter description" rows="5" id="description" name="description" class="form-control"></textarea>
+                </div>
+                <br>
+                <button type="submit" class="btn btn-success">Submit</button>
+              </form>
+            </div>
+
+            <div id="item5">
+            </div>
+            
+            <div id="item6">
+              <div class="container">
+                <div class="jumbotron">
+                  <iframe width="100%" height="100%" src="https://www.youtube.com/embed/PDrjxt2tKIs?si=a0PY3gAIUjFVbxs_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> 
+                </div>
+                <p>Contact us at : 07XXXXXXX</p>
+              </div>
+            </div>
+        </div>
+    </body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="./js/index.js"></script>
 </html>
-
-

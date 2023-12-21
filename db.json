@@ -1,0 +1,28 @@
+{
+  "artpieces": [
+    {
+      "id": 1,
+      "title": "Art Piece A",
+      "img": "https://sep.turbifycdn.com/ty/cdn/madisonartshop/most-famous-paintings-2.jpg?t=1678352599&",
+      "description": "This is designed by the famous artist Joseph."
+    },
+    {
+      "id": 2,
+      "title": "Art Piece B",
+      "img": "https://www.tallengestore.com/cdn/shop/collections/contemprory.jpg?v=1442495490",
+      "description": "This is designed by the famous artist Esther."
+    },
+    {
+      "id": 1703152819967,
+      "title": "Art Piece C ",
+      "img": "https://d16kd6gzalkogb.cloudfront.net/magazine_images/Salvador-Dali-The-Persistence-of-Memory-1931-c.jpg",
+      "description": "The persistence of memory art piece : 1931"
+    },
+    {
+      "id": 1703152922396,
+      "title": "Art Piece D",
+      "img": "https://www.singulart.com/blog/wp-content/uploads/2023/07/image-1024x458.png",
+      "description": "Singular Art : Artist Unknown"
+    }
+  ]
+}
